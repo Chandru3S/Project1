@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/91693230?v=4">
+    <link rel="stylesheet" href="./p1.css">
+</head>
+<body>
+  
+    <!-- nav bar Starts -->
+    <nav>
+        <a href="" class="img" target="_blank"><img src="https://avatars.githubusercontent.com/u/91693230?v=4" alt="cs" width="50px" height="50px"></a>
+        <h3>Nature</h3>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><i class="bi bi-person-lines-fill" id="lg" onclick="Login()"></i></li>
+        </ul>
+        <div class="sl" id="sl">
+            <a href="./Login.html" class="in">Sign-In</a>
+            <a href="./p1.html" class="up">Sign-Up</a>
+        </div>
+
+    </nav>
+    <!-- nav bar Ends -->
+
+    <!-- Application Starts -->
+
+    <div class="mainc">
+        <div class="apl">
+            <h1>Registration Form</h1>
+            <label for="">First Name:<br><br><input type="text" placeholder="Enter first name" required></label><br><br>
+            <label for="">Last Name: <br><br><input type="text" placeholder="Enter last name" required></label><br><br>
+            <label for="">Select Gender:<input type="radio" onclick="male()" id="male">Male<input type="radio" onclick="female()" id="female">Female<input type="radio" onclick="other()" id="other">Other</label><br><br>
+            <label for="">Enter DOP:<br><br><input type="text" placeholder="YYYY-MM-DD" required></label><br><br>
+            <label for="">Enter Phone No:<br><br><input type="text" placeholder="7996269545" minlength="10" maxlength="10" required></label><br><br>
+            <label for="">Enter Gmail:<br><br><input type="email" placeholder="xyz@gmail.com" maxlength="66" required></label><br><br>
+            <label for="">Enter Password:<br><br><input type="password" placeholder="Enter Password" maxlength="32" required></label><br><br>
+            <label for="">Confirm Password:<br><br><input type="password" placeholder="Enter Password" maxlength="32" required></label><br><br>
+            <a href="./hemantha.html"><button type="submit">Submit</button></a>    
+        </div>
+        <div id="icon1">
+            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/person-male-1597388-1354344.png" alt="img" id="i1" width="60px">
+        </div>
+        <div id="icon2">
+            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/person-female-1597389-1354345.png" alt="img" id="i2" width="60px">
+        </div>
+        <div id="icon3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyjBiid689W7HMHqRDYJGQnbpetI1QSsjB0lXrBwEnlRa7v7HTyXaqCNqbgUsTaDBSkVM&usqp=CAU" alt="img" id="i3" width="60px" height="60px">
+        </div>
+        
+    </div>
+   
+    <!-- Application Ends -->
+   
+
+
+
+    <script>
+        function Login()
+        {
+            document.getElementById("lg").style.display="none";
+            document.getElementById("sl").style.display="block";   
+        }
+
+        function male()
+        {
+            document.getElementById("male").checked = true;
+            document.getElementById("female").checked = false;
+            document.getElementById("other").checked = false;
+            document.getElementById("i1").style.display="block";
+            document.getElementById("i2").style.display="none";  
+            document.getElementById("i3").style.display="none";
+
+        }
+        function female()
+        {
+            document.getElementById("female").checked = true;
+            document.getElementById("male").checked = false;
+            document.getElementById("other").checked = false;
+            document.getElementById("i2").style.display="block"; 
+            document.getElementById("i1").style.display="none";
+            document.getElementById("i3").style.display="none";
+        }
+        function other()
+        {
+            document.getElementById("other").checked = true;
+            document.getElementById("male").checked = false;
+            document.getElementById("female").checked = false;
+            document.getElementById("i3").style.display="block"; 
+            document.getElementById("i1").style.display="none";
+            document.getElementById("i2").style.display="none";
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>

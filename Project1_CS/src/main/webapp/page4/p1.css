@@ -1,0 +1,193 @@
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    
+    /* Nav bar starts */
+   
+    body
+    {
+        background-color:lightcyan;
+        background-image: url(./photos/c5.jpg) ;
+    }
+   nav{
+   
+       /* border: 1px solid red; */
+       margin-top: -7px;
+       margin-bottom: 10px;
+       background-color: lightslategray;
+      
+   }
+   nav .img,h3,ul{
+       display: inline;
+   }
+   nav .img img
+   {
+       border-radius: 100%;
+       position: relative;
+       top: 13px;
+       left: 30px;
+   }
+   nav h3
+   {
+       font-size: 35px;
+       color: rgb(47, 255, 47);
+       margin-left: 100px;
+   }
+   nav ul
+   {
+       display: inline-block;
+       margin-left: 450px;
+       font-size: 20px;
+   }
+   nav ul li{
+       display: inline-block;
+       margin-left: 50px;
+       font-size: 20px;
+       
+   }
+   nav ul li a {
+   
+       text-decoration: none;
+       color: white;
+     
+   }
+   nav ul li a:hover{
+   
+       background-color: rgb(47, 255, 47);
+       color:red;
+       padding: 5px 15px;
+       border-radius: 10px;
+   
+   }
+   nav ul li i{
+       font-size: 35px;
+       color: white;
+       margin-left: 40px;
+   }
+   nav ul li i:hover {
+       color: red;  
+   }
+   
+   nav .sl
+   {
+       /* border: 1px solid blue; */
+       position: absolute;
+       right: 10px;
+       top: 59px;
+       display: none;
+   }
+   nav .sl .in,.up
+   {
+       display: flex;
+       margin-bottom: 3px;
+       font-size: 20px;
+       text-decoration: none;
+   
+   }
+   nav .sl .in
+   {
+       background-color: rgba(128, 128, 128, 0.767);
+       padding: 3px 35px 3px 5px;
+       text-align: center;
+       color: rgb(0, 102, 255);
+   }
+   nav .sl .in:hover 
+   {
+       background-color: coral;
+       color: #fff;
+   
+   }
+   nav .sl .up
+   {
+       background-color:rgba(128, 128, 128, 0.767);
+       padding: 3px 35px 3px 5px;
+       text-align: center;
+       color: rgb(0, 102, 255);
+   }
+   nav .sl .up:hover 
+   {
+       background-color: coral;
+       color: rgb(187, 255, 0);
+   }
+       
+   /* Nav bar ends */
+   .mainc
+{
+    /* border: 1px solid blue; */
+}
+
+
+.mainc .apl
+{
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    margin-right: 780px;
+    /* text-align: right; */
+    background-color:whitesmoke;
+}
+.mainc .apl h1
+{
+    text-align: center;
+}
+.mainc .apl input
+{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color:whitesmoke;
+    color:magenta;
+    padding-right: 105px;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+.mainc .apl label
+{
+    margin-left: 30px;
+}
+.mainc .apl input:focus
+{
+    outline: none;
+}
+.mainc .apl input::-webkit-input-placeholder {
+
+    font-size: 15px;
+}
+
+#icon1 #i1,#i2,#i3
+{
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    border: 1px solid red;
+    border-radius: 100%;
+    display: none;
+}
+.mainc .apl a button
+{
+    margin-left: 350px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    padding: 5px 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: none; 
+    border-radius: 15px;
+    color:navy;
+    font-weight: 700;
+    
+}
+.mainc .apl a button:hover
+{
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+}
+
+
+
+
+
+
+
+
+

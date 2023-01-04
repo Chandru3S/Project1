@@ -1,0 +1,213 @@
+
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    
+ /* Nav bar starts */
+
+body
+{
+    background-color:lightcyan;
+}
+nav{
+
+    /* border: 1px solid red; */
+    margin-top: -7px;
+    margin-bottom: 10px;
+    background-color: lightslategray;
+   
+}
+nav .img,h3,ul{
+    display: inline;
+}
+nav .img img
+{
+    border-radius: 100%;
+    position: relative;
+    top: 13px;
+    left: 30px;
+}
+nav h3
+{
+    font-size: 35px;
+    color: rgb(47, 255, 47);
+    margin-left: 100px;
+}
+nav ul
+{
+    display: inline-block;
+    margin-left: 450px;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+  
+}
+nav ul li a:hover{
+
+    background-color: rgb(47, 255, 47);
+    color:red;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+}
+nav ul li i{
+    font-size: 35px;
+    color: white;
+    margin-left: 40px;
+}
+nav ul li i:hover {
+    color: red;  
+}
+
+nav .sl
+{
+    /* border: 1px solid blue; */
+    position: absolute;
+    right: 10px;
+    top: 59px;
+    display: none;
+}
+nav .sl .in,.up
+{
+    display: flex;
+    margin-bottom: 3px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+nav .sl .in
+{
+    background-color: rgba(128, 128, 128, 0.767);
+    padding: 3px 35px 3px 5px;
+    text-align: center;
+    color: rgb(0, 102, 255);
+}
+nav .sl .in:hover 
+{
+    background-color: coral;
+    color: #fff;
+
+}
+nav .sl .up
+{
+    background-color:rgba(128, 128, 128, 0.767);
+    padding: 3px 35px 3px 5px;
+    text-align: center;
+    color: rgb(0, 102, 255);
+}
+nav .sl .up:hover 
+{
+    background-color: coral;
+    color: rgb(187, 255, 0);
+}
+    
+/* Nav bar ends */
+  
+}
+
+.maincontainer .main
+{
+    display: inline-block;
+}
+.main .sub1
+{
+    border: 1px solid red;
+    padding-bottom: 10px;
+    margin: 7px;
+    margin-left: 10px;
+}
+.main  img
+{
+    transition: transform .8s;
+}
+.main  img:hover
+{
+    transform: scale(1.1);
+}
+.main .sub1 h3
+{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.main .sub1 .by
+{
+    font-size: 15px;
+    padding: 2px 12px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+.main .sub1 .by:hover
+{
+    background-color:rgb(11, 109, 236) ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.main .sub1 button i
+{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+.main .sub1 .s:hover
+{
+    background-color:rgb(11, 109, 236) ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+.maincontainer .main .sub1 .share
+{
+    /* border: 1px solid blue; */
+    display: none;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+.main .sub1 .share i
+{
+    display: flexbox;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.main .sub1 .share #i1
+{
+    color:rgb(11, 109, 236);
+}
+.main .sub1 .share #i2
+{
+    color:red;
+}
+.main .sub1 .share #i3
+{
+    color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

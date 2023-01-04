@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./photos/Hemanth.jpg);
+    background-size: 150%;
+    background-position: center;
+}
+.log{
+
+    border: 2px solid cyan;
+    border-radius: 10px;
+    width: 25%;
+    background-position: center;
+    text-align: center;
+    color: black;  
+    margin-left: 650px; 
+    margin-top: 160px;
+    padding-bottom: 30px;
+}
+.log h1{
+
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: aqua;
+}
+.log .center .phone,.pass
+{
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    background-color: aqua;
+    color:black;
+}
+.log .center .phone,.pass:focus
+{
+    outline: none;
+}
+.forget a{
+
+    text-decoration: none;
+}
+.sig{
+    text-decoration: none;
+}
+#hh{
+    color: pink;
+    font-size: 20px;
+    cursor: pointer;
+}
+#ss{
+    color:red;
+    font-size: 20px;
+}
+#ss:hover{
+    color:aqua;
+    font-size: 20px;
+}
+#suvarna{
+    color:chartreuse;
+    font-size: 20px;
+    text-decoration: none;
+}
+#suvarna:hover{
+    color: blue;
+    font-size: 20px;
+}
+#he{
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    color: aliceblue;
+    font-size: 20px; 
+}
+#he:hover{
+    color: white;
+    background-color: rgb(0, 89, 255);
+    border: none;
+}
+#he{
+    color: black;
+    border: none;
+    padding: 5px 15px;
+    
+
+}
+.center{
+    border: none;
+}

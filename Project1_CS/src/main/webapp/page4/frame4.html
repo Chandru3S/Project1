@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./frame1.css">
+    <title>Nature</title>
+</head>
+<body>
+    
+    <!-- nav bar Starts -->
+    <nav>
+        <a href="" class="img" target="_blank"><img src="https://avatars.githubusercontent.com/u/91693230?v=4" alt="cs" width="50px" height="50px"></a>
+        <h3>Nature</h3>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><i class="bi bi-person-lines-fill" id="lg" onclick="Login()"></i></li>
+        </ul>
+        <div class="sl" id="sl">
+            <a href="" class="in">Sign-In</a>
+            <a href="" class="up">Sign-Up</a>
+        </div>
+
+    </nav>
+
+    <!-- nav bar Ends -->
+
+    <div class="mainf" id="mainf">
+        <div class="imgf">
+            <img src="./photos/c4.jpg" alt="img" id="ig">
+        </div>
+      <form action="frame.jsp" method="post">
+        <div class="dtls">
+            <h1>Nature Flower 3</h1><br>
+            <h2>Choose your option to continue</h2>
+            <input type="radio" onclick="withh()" value="with" id="want" name="with"><label for="with">Buy with Frame</label><br><br>
+            <input type="radio" onclick="without()" value="without" id="dwant" name="with"><label for="without" >Buy without Frame</label><br>
+            <a href="./address.html"><button class="by">Buy</button></a>
+        </div>
+      </form>
+    </div>
+
+
+
+<Script>
+
+    function withh()
+    {
+        document.getElementById("ig").style.border="15px solid brown";
+        document.getElementById("want").checked = true;
+        document.getElementById("dwant").checked = false;
+        document.getElementById("mainf").style.paddingBottom="10px";
+    }
+    function without()
+    {
+        document.getElementById("ig").style.border="none";
+        document.getElementById("dwant").checked = true;
+        document.getElementById("want").checked = false;
+        document.getElementById("mainf").style.paddingBottom="30px";
+    }
+
+</Script>
+
+</body>
+</html>
